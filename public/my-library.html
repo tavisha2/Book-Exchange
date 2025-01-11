@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="layout">
+        <div id="menu-wrapper">
+            <button id="menu-toggle"><img id="toggle" src="Menutoggle2.png"></button>
+            <div id="browse-tab">
+                <h5 id="browse-label">Browse</h5>
+            </div>
+            <div style="background-color:#ffe8ef" id="library-tab">
+                <h5 style="color:#421220;" id="library-label">My Library</h5>
+            </div>
+        </div>
+        <div id="main-content">
+            <div id="title">
+                <h2>Book Exchange</h2>
+                <button id="log-out"> [→ </button>
+            </div>
+            <div id="my-library-section">
+                <div style="width:50%">
+                    <h3>My Books</h3>
+                    <div id="my-books">
+                        <div id="add-form">
+                            <h6>Add Book</h6>
+                            <input id="add-title" placeholder="Enter Title">
+                            <input id="add-author" placeholder="Enter Author">
+                            <button id="add">Add</button>
+                        </div>
+                    </div>
+                </div>
+                <div style="width:50%">
+                    <h3 style="margin-left:0px;">Pending Requests</h3>
+                    <div id="my-requests">
+                        
+                    </div>
+                </div> 
+            </div>
+        </div>    
+    </div>     
+</body>
+<script src="my-library.js"></script>
+</html>
