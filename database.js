@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const dbConnectionUri = "mongodb+srv://tavishapatel:bookwebsite123@cluster0.cbohy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const dbConnectionUri = "###";
 const dbName = "bookwebsite";
 
 //Connects to database
@@ -26,5 +26,6 @@ const bookSchema = new mongoose.Schema({
 
 const User = mongoose.model("User", userSchema);
 const Book = mongoose.model("Book", bookSchema);
+
 
 module.exports = {User, Book, connectToDB};
